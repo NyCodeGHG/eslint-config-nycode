@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "extends": "./src/index.js",
+  "env": {
+    "node": true
+  }
+}
