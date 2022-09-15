@@ -3,5 +3,10 @@
   "extends": "./src/index.js",
   "env": {
     "node": true
+  },
+  "parserOptions": {
+    "project": [
+      "./jsconfig.json"
+    ]
   }
 }
