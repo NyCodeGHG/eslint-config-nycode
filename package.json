@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nycode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my personal eslint configuration",
   "main": "src/index.js",
   "repository": {

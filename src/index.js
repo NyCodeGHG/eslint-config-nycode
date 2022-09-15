@@ -1,4 +1,4 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: ['./typescript.js'],
+  extends: ['./base.js', './typescript.js', './react.js'],
 };
