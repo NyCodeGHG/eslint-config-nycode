@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nycode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "my personal eslint configuration",
   "main": "src/index.js",
   "repository": {
@@ -14,14 +14,17 @@
     "eslint",
     "eslint-config"
   ],
+  "exports": {
+    ".": "./src/index.js",
+    "./next": "./src/next.js"
+  },
   "packageManager": "pnpm@7.11.0",
   "author": "nycode",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.37.0",
     "@typescript-eslint/parser": "^5.37.0",
-    "eslint-plugin-react": "^7.31.8",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-config-next": "^12.3.0"
   },
   "devDependencies": {
     "@types/eslint": "8.4.6",
