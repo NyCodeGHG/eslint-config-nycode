@@ -10,7 +10,8 @@ module.exports = {
       plugins: ['@typescript-eslint'],
       files: ['**/*.ts', '**/*.tsx'],
       parserOptions: {
-        sourceType: 'module'
+        sourceType: 'module',
+        project: 'tsconfig.json'
       }
     }
   ]
