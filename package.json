@@ -18,7 +18,7 @@
     ".": "./src/index.js",
     "./next": "./src/next.js"
   },
-  "packageManager": "pnpm@7.12.2",
+  "packageManager": "pnpm@7.17.0",
   "author": "nycode",
   "license": "MIT",
   "dependencies": {
